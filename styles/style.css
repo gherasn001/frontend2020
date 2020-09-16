@@ -1,0 +1,560 @@
+/* CSS Document */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/*mobiel code*/
+body {
+    font-family: "The Sims Sans";
+    margin: 0;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    font-family: "BentonSans Regular";
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    padding: .5em;
+    background-color: white;
+}
+
+header nav {
+    display: none;
+}
+
+header button {
+    position: fixed;
+    right: 0;
+    background-color: white;
+    border: none;
+    padding: 1em;
+
+}
+
+header nav ul {
+
+    top: 0;
+    background-color: white;
+
+    right: 0;
+    left: 0;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+header nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: .8em;
+
+
+}
+
+header nav li a:hover {
+    color: blue;
+    display: block;
+}
+
+header nav.menu {
+    display: flex;
+    justify-content: center;
+    transition: all 2s;
+
+
+}
+
+/*dit is de driehoek*/
+.driehoek {
+    /*    display: block;*/
+    position: absolute;
+    width: 100%;
+    height: 0;
+    border-top: solid 100px transparent;
+    border-right: solid 800px darkblue;
+    /*border-bottom:solid 100px transparent;*/
+    border-left: solid transparent;
+    top: 4.3%;
+}
+
+main section:first-child {
+    background-color: darkblue;
+    display: block;
+
+}
+
+main section:first-of-type img:nth-child(1) {
+    background-image: url(https://data4.origin.com/asset/content/dam/originx/web/app/games/the-sims/the-sims-4/BYOB/TS4_byob_newdesign_ep7_store_hero_en_ww_bg.jpg/f0166188-a5c1-4dc0-80bb-f2ca2cb7949c/original.jpg);
+    margin-top: 12%;
+    width: 100%;
+
+
+}
+
+main section:first-of-type {
+    padding-bottom: 2em;
+    position:
+}
+
+
+
+
+main section:nth-of-type(1) a {
+    display: block;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: "BentonSans Book";
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    border: solid white .2em;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main section:nth-of-type(2) a {
+    display: block;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: "BentonSans Book";
+    margin: 1em;
+    padding: 1em;
+    width: 80%;
+    border: solid white .2em;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+main section:nth-of-type(2) {
+    background-color: blue;
+    text-align: center;
+
+    color: white;
+    padding: .2em;
+}
+
+main section:last-of-type a {
+
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: "BentonSans Book";
+    margin: 1em;
+    padding: 1em;
+    border-radius: 6px;
+    font-size: 1em;
+    margin-left: 5%;
+}
+
+main section img:nth-child(2) {
+    width: 100%;
+    margin-top: -50%;
+    background-color: darkblue;
+    padding: 2em;
+}
+
+h1 {
+    color: white;
+    font-family: "BentonSans Book";
+    font-size: 1em;
+    text-align: center;
+    margin: 1em 3.5em;
+    margin-top: auto;
+
+}
+
+
+main section:nth-of-type(2) h2 {
+    margin: 1em 2em;
+
+    margin-bottom: auto;
+
+}
+
+
+main section:nth-of-type(3) h2 {
+
+    font-size: 200%;
+    padding: .5em;
+    margin: 1em;
+    text-align: center;
+
+}
+
+main section:nth-of-type(3) img,
+p {
+    display: none;
+}
+
+main section:nth-of-type(3) li {
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: .5em;
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+main a {
+    text-decoration: none;
+}
+
+main section:nth-of-type(3) h4 {
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+main section:nth-of-type(3) h3 {
+    font-family: "BentonSans Book";
+    color: black;
+}
+
+main section:nth-of-type(3) li:hover {
+    transform: scale(1.1);
+}
+
+main section:nth-of-type(3) h4 div {
+
+    margin: .5em;
+    font-size: .8em;
+    text-transform: uppercase;
+    color: black;
+
+}
+
+main section:nth-of-type(3) h4 div:first-of-type {
+    color: blue
+}
+
+main section:nth-of-type(4) {
+
+    background-image: url(https://media.contentapi.ea.com/content/dam/eacom/SIMS/brand-refresh-assets/common/test-only-ts4-newsletter-bg-email-opt-in-grey-mosaic-xl.png.adapt.crop16x9.320w.png);
+    background-repeat: no-repeat;
+    background-size: 200%;
+
+}
+
+main section:nth-of-type(4) li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+
+}
+
+main section:nth-of-type(4) li:nth-of-type(1) img {
+
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767w.jpg);
+
+}
+
+main section:nth-of-type(4) li:nth-of-type(2) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-mobile-key-art.jpg.adapt.crop1x1.767p.jpg);
+    padding: 10em;
+}
+
+main section:nth-of-type(4) li:nth-of-type(3) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767w.jpg);
+}
+
+main section:nth-of-type(4) li:nth-of-type(4) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-freeplay-keyart.jpg.adapt.crop1x1.767w.jpg);
+    padding: 10em;
+}
+
+main section:nth-of-type(4) li:nth-of-type(5) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/10/the-sims-3-keyart-2.jpg.adapt.crop1x1.767p.jpg);
+    padding: 12em;
+}
+
+main section:nth-of-type(4) li:nth-of-type(6) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/mysims-keyart.jpg.adapt.crop1x1.767p.jpg);
+}
+
+main section:nth-of-type(4) li:nth-of-type(7) img {
+    background-image: url(https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-2-deluxe.jpg.adapt.crop1x1.767p.jpg);
+    padding: 11em;
+
+    display: none;
+}
+
+main section:nth-of-type(4) img {
+
+    display: block;
+    width: 100%;
+    padding: 8em;
+    padding-top: 12em;
+    padding-bottom: 12em;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: .5em;
+    margin-left: -1em;
+
+
+
+}
+
+main section:nth-of-type(4) h2 {
+    font-size: 200%;
+    padding: .5em;
+    margin: 1em;
+    text-align: center;
+
+
+}
+
+main section:nth-of-type(4) nav li a {
+    /*
+    display: flex;
+    flex-direction: row;
+*/
+    display: block;
+    text-transform: uppercase;
+    font-size: .7em;
+    color: black;
+    opacity: .7;
+    margin: auto;
+
+
+
+}
+
+
+main section:nth-of-type(4) a {
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    opacity: .7;
+    border-radius: .4em;
+    margin: 1em;
+    margin-top: -1em;
+
+}
+
+main section:nth-of-type(5) {
+    background-color: #f1f1f1
+}
+
+main section:nth-of-type(6) {
+    background-color: #f1f1f1
+}
+
+
+main section:nth-of-type(5) h2 {
+    font-size: 200%;
+    padding: .5em;
+    padding-top: 2em;
+    margin: 1em;
+    margin-top: -.5em;
+    margin-bottom: auto;
+}
+
+
+main section:nth-of-type(5) h4 {
+    font-family: "BentonSans Book";
+    line-height: 1.5em;
+    padding: 2.1em;
+    font-size: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin: auto;
+}
+
+main section:nth-of-type(5) input {
+    border: solid black .2em;
+    border-radius: .3em;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    width: 85vw;
+    font-size: 1em;
+    color: grey .3;
+
+}
+
+main section:nth-of-type(5) select {
+    border: solid black .2em;
+    border-radius: .3em;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    width: 85vw;
+    font-size: 1em;
+
+}
+
+main section:nth-of-type(5) input:last-of-type {
+    margin-left: -10.6em;
+
+
+}
+
+main section:nth-of-type(5) label {
+    font-family: "BentonSans Book";
+    font-size: .79em;
+    display: block;
+    line-height: 1.7em;
+    margin: 2em;
+    margin-top: -2.5em;
+    margin-left: 5em;
+}
+
+main section:nth-of-type(6) {
+    margin-top: -2em;
+    padding: 2em;
+    padding-left: .5em;
+    padding-bottom: 6em;
+}
+
+main section:nth-of-type(6) a {
+    border-radius: .3em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+footer section:nth-of-type(1) {
+    background-color: #e7e7e7;
+    padding-top: 1em;
+}
+
+footer section {
+    background-color: #f1f1f1;
+    padding-left: 2em
+}
+
+footer section:nth-of-type(1) a {
+    text-decoration: none;
+    font-family: "BentonSans Book";
+    color: black;
+    margin-left: -2.4em;
+    line-height: 3em;
+    padding: 3em;
+    padding-left: 2.5em;
+
+}
+
+footer section:nth-of-type(1) a:nth-of-type(3) {
+
+    display: block;
+    padding: .5em;
+    padding-left: 2.5em;
+    padding-bottom: 4em;
+}
+
+footer section:nth-of-type(1) img {
+    padding-right: 2em;
+
+}
+
+footer section:nth-of-type(1) img:nth-of-type(2) {
+
+    padding-bottom: 1em;
+
+}
+
+footer section:nth-of-type(1) img:last-of-type {
+    display: block;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+
+footer section:nth-of-type(2) img {
+    padding-top: 3em;
+    padding-bottom: 1em;
+    display: block;
+
+}
+
+footer section:nth-of-type(2) a {
+    font-family: Oswald;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding-right: 2.5em;
+    text-align: center;
+    line-height: 2em;
+
+
+}
+
+footer section:nth-of-type(2) select {
+    border: solid black .7;
+    border-width: .15em;
+    background-color: transparent;
+    border-radius: .3em;
+    padding: .7em;
+    padding-left: 2em;
+    display: block;
+    width: 85vw;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer section:nth-of-type(3) {
+    font-family: "BentonSans Book";
+    padding-top: 3em;
+    margin-top: -2em;
+}
+
+footer section:nth-of-type(3) a {
+    text-decoration: none;
+    color: black;
+    padding-right: 2em;
+    text-align: center;
+    font-size: .9em;
+    font-family: seravek;
+    line-height: 3em;
+
+}
+
+footer section:nth-of-type(3) div {
+    text-decoration: none;
+    color: black;
+    padding-right: 2em;
+
+    font-size: .9em;
+    font-family: seravek;
+    line-height: 3em;
+    padding-bottom: 5em;
+
+}
