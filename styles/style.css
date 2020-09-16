@@ -135,6 +135,20 @@ main section:nth-of-type(1) a {
 
 }
 
+main section:nth-of-type(1) a:hover {
+
+    transform: scale(1.1);
+
+    transition: .1s;
+}
+
+main section:nth-of-type(2) a:hover {
+
+    transform: scale(1.1);
+
+    transition: .1s;
+}
+
 main section:nth-of-type(2) a {
     display: block;
     text-align: center;
@@ -245,6 +259,8 @@ main section:nth-of-type(3) h3 {
 
 main section:nth-of-type(3) li:hover {
     transform: scale(1.1);
+    transition: .5s;
+    s
 }
 
 main section:nth-of-type(3) h4 div {
