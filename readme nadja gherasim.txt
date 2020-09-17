@@ -42,7 +42,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+-![1](images/voortgang1-1)
+![2](images/voortgang1-2)
+![3](images/voortgang1-3)
+![4](images/voortgang1-4)
+![5](images/voortgang1-5)
+![6](images/voortgang1-6)
+![7](images/voortgang1-7)
+![8](images/voortgang1-8)-
 
 ### Agenda voor meeting
 
@@ -50,7 +57,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-
+- Svg in html zetten zonder <img>
+-  ![] (img..) syntax read me voor iedere afbeelding zetten.
+-Regel uit inleiding programmeren bovenaan de JS tegen de error, of voor errors in console checken.
+-  De nav niet op display:none doen, maar buiten de vh zetten en dan naar beneden laten komen met de klik functie en transition.
+-  Pagination met javascript een carrousel maken voor de games. Denk aan dobbelsteen opdracht.
+-  Een z-index op de menu zetten, zodat ie altijd vooraan staat.
+-  Voor pagination mag class gebruiken, als het leven te zwaar wordt.
+-  Goed op weg. De Wims website begint er op te lijken.-
 
 
 
@@ -63,10 +78,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 **Je opdracht:**-https://www.ea.com/games/the-sims
 Ik heb voor deze site gekozen, omdat ik een grote fan ben van de Sims en er recent een STAR WARS Pack is aangekondigd waardoor het mij leuk leek om er juist nu voor te gaan kiezen. -
 
-**Screenshot(s):**images/screenshot-laptop; images/screenshot-ipad; images/screenshot-iphone11
+**Screenshot(s):** ![laptop] (images/screenshot-laptop); 
+![Mobiel]( images/screenshot-iphone11)
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](BREAKDOWN SCHETS/IPHONE 11.pdf)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](BREAKDOWN SCHETS/LAPTOP.pdf)

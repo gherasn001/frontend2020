@@ -260,7 +260,7 @@ main section:nth-of-type(3) h3 {
 main section:nth-of-type(3) li:hover {
     transform: scale(1.1);
     transition: .5s;
-    s
+
 }
 
 main section:nth-of-type(3) h4 div {
