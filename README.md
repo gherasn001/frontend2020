@@ -35,6 +35,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -Allebei de mobile pagina's hebben alle content en zijn zo goed als af. Er zitten verschillende animaties in verwerkt. Een werkende carrousel. Minimum gebruik van classes, alleen wanneer het echt noodzakelijk was.  -
 
 **Screenshot(s):**
+![1](images/voortgang2-1.png)
+![2](images/voortgang2-2.png)
+![3](images/voortgang2-3.png)
+![4](images/voortgang2-4.png)
+![5](images/voortgang2-5.png)
+![6](images/voortgang2-6.png)
+![7](images/voortgang2-7.png)
+
 
 
 ### Agenda voor meeting

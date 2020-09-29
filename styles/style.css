@@ -123,14 +123,14 @@ header nav.menu {
     width: 100%;
     height: 0;
     border-top: solid 100px transparent;
-    border-right: solid 800px darkblue;
+    border-right: solid 800px #1500b3;
     /*border-bottom:solid 100px transparent;*/
     border-left: solid transparent;
-    top: 6.2%;
+    top: 6.15%;
 }
 
 main section:first-child {
-    background-color: darkblue;
+    background-color: #1500b3;
     display: block;
 
 }
@@ -142,7 +142,11 @@ main section:first-of-type img:nth-child(1) {
 
 
 }
+main section:first-of-type img:nth-child(2) {
 
+ background-color: #1500b3;
+
+}
 main section:first-of-type {
     padding-bottom: 2em;
 
@@ -154,7 +158,7 @@ main section:first-of-type {
 main section:nth-of-type(1) a {
     display: block;
     text-align: center;
-    background-color: darkblue;
+    background-color: #1500b3;
     color: white;
     font-family: "BentonSans Book";
     margin: 1em;
@@ -185,7 +189,7 @@ main section:nth-of-type(2) a:hover {
 main section:nth-of-type(2) a {
     display: block;
     text-align: center;
-    background-color: blue;
+    background-color: #2b00ff;
     color: white;
     font-family: "BentonSans Book";
     margin: 1em;
@@ -200,7 +204,7 @@ main section:nth-of-type(2) a {
 }
 
 main section:nth-of-type(2) {
-    background-color: blue;
+    background-color: #2b00ff;
     text-align: center;
 
     color: white;
@@ -306,7 +310,7 @@ main section:nth-of-type(3) h4 div {
 }
 
 main section:nth-of-type(3) h4 div:first-of-type {
-    color: blue
+    color: #2b00ff;
 }
 
 main section:nth-of-type(4) {
@@ -427,25 +431,37 @@ main section:nth-of-type(4) nav {
     flex-direction: row;
     justify-content: center;
     margin-top: -1em;
-    opacity: .5;
+  
 
 }
 
 main section:nth-of-type(4) nav button {
     text-transform: uppercase;
     font-size: .9em;
-    color: black;
-    border: solid .25em;
+    color: #585858;
+    border: solid .25em #585858;
     padding: 1em;
 background-color: transparent;
+    font-family: "The Sims Sans";
+     border-radius: .3em;
 }
-
+main section:nth-of-type(4) nav button:hover{
+    color: white;
+    opacity: 1;
+    border-color: white;
+}
+main section:nth-of-type(4) nav button{
+        outline: none;
+  cursor: pointer;
+}
 main section:nth-of-type(4) nav button:nth-of-type(1) {
-    border-radius: .3em 0 0 .3em;
+   margin-right: 7.7em;
+    
+    
 }
 
 main section:nth-of-type(4) nav button:nth-of-type(2) {
-    border-radius: 0 .3em .3em 0;
+    margin-left: 7.7em;
 }
 
 main section:nth-of-type(4) nav select {
@@ -497,8 +513,15 @@ main section:nth-of-type(5) input {
     font-size: 1em;
     color: grey .3;
     background: none;
+    padding-top: 1.3em;
+    outline: none;
 
 }
+main section:nth-of-type(5) input:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+
 
 main section:nth-of-type(5) select {
     border: solid black .2em;
@@ -511,12 +534,21 @@ main section:nth-of-type(5) select {
     font-size: 1em;
     background: none;
 }
+main section:nth-of-type(5) label:nth-of-type(1){
 
+    font-size: .8em;
+    margin-left: 4em;
+    opacity: .5;
+ 
+    margin-top: -5.5em;
+    margin-bottom:4em;
+}
 main section:nth-of-type(5) input:last-of-type {
     margin-left: -10.6em;
 
 
 }
+
 
 main section:nth-of-type(5) label {
     font-family: "BentonSans Book";
@@ -529,16 +561,27 @@ main section:nth-of-type(5) label {
 }
 
 main section:nth-of-type(6) {
-    margin-top: -2em;
+    margin-top: -1em;
     padding: 2em;
     padding-left: .5em;
     padding-bottom: 6em;
 }
 
 main section:nth-of-type(6) a {
-    border-radius: .3em;
+    border-radius: .2em;
+     padding: 1.2em;
     padding-right: 2em;
     padding-left: 2em;
+    cursor: pointer;
+    background-color: #2b00ff;
+  
+  
+}
+main section:nth-of-type(6) a:hover{
+     padding: 1.4em;
+       padding-right: 2.2em;
+    padding-left: 2.2em;
+    transition-duration: .1s;
 }
 
 footer section:nth-of-type(1) {
@@ -591,6 +634,7 @@ footer section:nth-of-type(1) img:last-of-type {
     padding-top: 2em;
     padding-bottom: 3em;
 }
+
 
 footer section:nth-of-type(2) img {
     padding-top: 3em;
@@ -671,7 +715,12 @@ main .brief:nth-of-type(1) h1 {
     line-height: 1.5em;
 
 }
-
+main .brief:nth-of-type(1) div{
+    background-color: white;
+    padding: .3em;
+    margin-right: 15em;
+    margin-top: 1.5em;
+}
 .brief:nth-of-type(2) p {
     display: block;
     background-color: white;
@@ -705,7 +754,7 @@ main .brief:nth-of-type(2) a {
     text-align: left;
     font-size: 1.05em;
     margin: auto;
-    margin-left: 1em;
+    margin-left: em;
     padding: inherit;
     line-height: 1.4em;
     margin-top: -1.3em;
@@ -736,11 +785,15 @@ main .brief:nth-of-type(3) li {
 
 }
 
-main .brief:nth-of-type(3) {
-    padding-bottom: 3em;
-
-}
 
 main .brief:nth-of-type(3) div {
     font-family: "The Sims Sans";
+}
+main .brief:last-of-type a{
+    background: transparent;
+}
+main .brief:nth-of-type(2) a:hover{
+    transform: scale(1);
+    cursor: text;
+    
 }
