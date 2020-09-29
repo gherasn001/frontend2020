@@ -54,14 +54,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![1](images/voortgang1-1)
-![2](images/voortgang1-2)
-![3](images/voortgang1-3)
-![4](images/voortgang1-4)
-![5](images/voortgang1-5)
-![6](images/voortgang1-6)
-![7](images/voortgang1-7)
-![8](images/voortgang1-8)
+![1](images/voortgang1-1.png)
+![2](images/voortgang1-2.png)
+![3](images/voortgang1-3.png)
+![4](images/voortgang1-4.png)
+![5](images/voortgang1-5.png)
+![6](images/voortgang1-6.png)
+![7](images/voortgang1-7.png)
+![8](images/voortgang1-8.png)
 
 ### Agenda voor meeting
 
@@ -91,8 +91,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Ik heb voor deze site gekozen, omdat ik een grote fan ben van de Sims en er recent een STAR WARS Pack is aangekondigd waardoor het mij leuk leek om er juist nu voor te gaan kiezen. -
 
 **Screenshot(s):** ![laptop] (images/screenshot-laptop); 
-![Mobiel]( images/screenshot-iphone11)
-
+![Mobiel]( images/screenshot-iphone11.png)
+![Desktop]( images/screendhot-laptop.png)
 
 
 **Breakdown-schets(en):**
