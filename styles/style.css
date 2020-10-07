@@ -17,6 +17,31 @@ ul {
     text-decoration: none;
 }
 
+a:focus {
+    color: green;
+
+    transform: rotate(14deg);
+    outline: none;
+    border-style: none;
+}
+
+button:focus {
+    color: green;
+    transform: scale(1.1);
+    transform: rotate(14deg);
+    outline: none;
+    border-style: none;
+
+}
+
+header button:focus {
+
+
+    transform: rotate(0deg);
+    outline: none;
+    border-style: none;
+
+}
 
 header {
     font-family: "BentonSans Regular";
@@ -26,6 +51,14 @@ header {
     padding: .5em;
     background-color: white;
     z-index: 1;
+
+}
+
+.burger {
+    background-image: url(../images/kruisjemenu.png);
+    background-repeat: no-repeat;
+
+
 
 }
 
@@ -40,23 +73,19 @@ header nav {
 }
 
 header button {
+    background-image: url('../images/burgermenu.png');
+    background-repeat: no-repeat;
     position: fixed;
     right: 0;
     background-color: white;
     border: none;
     padding: 1em;
     cursor: pointer;
+    top: 1.6em;
 
 }
 
-header button img:nth-of-type(2) {
-    display: none;
-    transition: all 250ms ease;
-    transform: translateY(-5vh);
-    background-color: aqua;
 
-
-}
 
 header button {
     outline: none;
@@ -126,7 +155,7 @@ header nav.menu {
     border-right: solid 800px #1500b3;
     /*border-bottom:solid 100px transparent;*/
     border-left: solid transparent;
-    top: 6.15%;
+    top: 8%;
 }
 
 main section:first-child {
@@ -141,12 +170,29 @@ main section:first-of-type img:nth-child(1) {
     width: 100%;
 
 
-}
-main section:first-of-type img:nth-child(2) {
 
- background-color: #1500b3;
 
 }
+
+main section:first-of-type article:first-of-type {
+    margin-top: auto;
+
+}
+
+main section:first-of-type article:nth-of-type(2) img {
+
+    background-color: #1500b3;
+    background-image: none;
+    padding: 2em;
+
+}
+
+main section:first-of-type article {
+    background-color: #1500b3;
+    margin-top: -10em;
+
+}
+
 main section:first-of-type {
     padding-bottom: 2em;
 
@@ -431,7 +477,7 @@ main section:nth-of-type(4) nav {
     flex-direction: row;
     justify-content: center;
     margin-top: -1em;
-  
+
 
 }
 
@@ -441,23 +487,26 @@ main section:nth-of-type(4) nav button {
     color: #585858;
     border: solid .25em #585858;
     padding: 1em;
-background-color: transparent;
+    background-color: transparent;
     font-family: "The Sims Sans";
-     border-radius: .3em;
+    border-radius: .3em;
 }
-main section:nth-of-type(4) nav button:hover{
+
+main section:nth-of-type(4) nav button:hover {
     color: white;
     opacity: 1;
     border-color: white;
 }
-main section:nth-of-type(4) nav button{
-        outline: none;
-  cursor: pointer;
+
+main section:nth-of-type(4) nav button {
+    outline: none;
+    cursor: pointer;
 }
+
 main section:nth-of-type(4) nav button:nth-of-type(1) {
-   margin-right: 7.7em;
-    
-    
+    margin-right: 7.7em;
+
+
 }
 
 main section:nth-of-type(4) nav button:nth-of-type(2) {
@@ -517,7 +566,8 @@ main section:nth-of-type(5) input {
     outline: none;
 
 }
-main section:nth-of-type(5) input:hover{
+
+main section:nth-of-type(5) input:hover {
     transform: scale(1.05);
     transition: .3s;
 }
@@ -534,15 +584,17 @@ main section:nth-of-type(5) select {
     font-size: 1em;
     background: none;
 }
-main section:nth-of-type(5) label:nth-of-type(1){
+
+main section:nth-of-type(5) label:nth-of-type(1) {
 
     font-size: .8em;
     margin-left: 4em;
     opacity: .5;
- 
+
     margin-top: -5.5em;
-    margin-bottom:4em;
+    margin-bottom: 4em;
 }
+
 main section:nth-of-type(5) input:last-of-type {
     margin-left: -10.6em;
 
@@ -569,17 +621,18 @@ main section:nth-of-type(6) {
 
 main section:nth-of-type(6) a {
     border-radius: .2em;
-     padding: 1.2em;
+    padding: 1.2em;
     padding-right: 2em;
     padding-left: 2em;
     cursor: pointer;
     background-color: #2b00ff;
-  
-  
+
+
 }
-main section:nth-of-type(6) a:hover{
-     padding: 1.4em;
-       padding-right: 2.2em;
+
+main section:nth-of-type(6) a:hover {
+    padding: 1.4em;
+    padding-right: 2.2em;
     padding-left: 2.2em;
     transition-duration: .1s;
 }
@@ -715,12 +768,14 @@ main .brief:nth-of-type(1) h1 {
     line-height: 1.5em;
 
 }
-main .brief:nth-of-type(1) div{
+
+main .brief:nth-of-type(1) div {
     background-color: white;
     padding: .3em;
     margin-right: 15em;
     margin-top: 1.5em;
 }
+
 .brief:nth-of-type(2) p {
     display: block;
     background-color: white;
@@ -789,11 +844,231 @@ main .brief:nth-of-type(3) li {
 main .brief:nth-of-type(3) div {
     font-family: "The Sims Sans";
 }
-main .brief:last-of-type a{
+
+main .brief:last-of-type a {
     background: transparent;
 }
-main .brief:nth-of-type(2) a:hover{
+
+main .brief:nth-of-type(2) a:hover {
     transform: scale(1);
     cursor: text;
-    
+
+}
+
+main .brief:nth-of-type(3) img {}
+
+@media(min-width: 31.7em) {
+    .driehoek {
+        display: none;
+    }
+}
+
+@media(min-width: 45em) {
+
+    header {
+        font-family: "BentonSans Regular";
+        position: fixed;
+        width: 100%;
+        max-width: 100%;
+        padding: .5em;
+        background-color: white;
+        display: block;
+
+
+    }
+
+
+    header nav {
+
+        transform: none;
+        transition: none;
+        display: flex;
+        justify-content: flex-start;
+        top: .7em;
+    }
+
+    header button {
+        display: none;
+
+    }
+
+
+
+
+
+    header nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: 5em;
+
+
+    }
+
+
+
+    header nav li a {
+
+        color: black;
+        text-align: left;
+        padding: 1em;
+
+        text-decoration: none;
+        font-size: .8em;
+        border: none;
+        padding-bottom: 0;
+
+    }
+
+    header nav li a:hover {
+        color: blue;
+        display: block;
+    }
+
+    main section:nth-of-type(1) {
+        display: flex;
+        background-color: #2b00ff;
+
+
+    }
+
+    main section:nth-of-type(1) article:nth-of-type(1) img {
+        margin-top: auto;
+        width: 50%;
+        margin-left: 50%;
+        background: none;
+        background-color: #2b00ff;
+    }
+
+    main section:nth-of-type(1) article:nth-of-type(2) {
+        margin-top: auto;
+        position: absolute;
+        width: 50%;
+        background-color: transparent;
+
+    }
+
+    main section:nth-of-type(1) article {
+        background-color: #2b00ff;
+    }
+
+    main section:nth-of-type(1) article:nth-of-type(2) img {
+        background-color: transparent;
+    }
+
+    main section:nth-of-type(1) a {
+        background-color: #2b00ff;
+
+    }
+
+    main section:nth-of-type(1) ul li:nth-of-type(1) a {
+        width: 12em;
+
+    }
+
+    main section:nth-of-type(1) ul li:nth-of-type(2) a {
+        width: 8em;
+        margin-left: 2em;
+
+    }
+
+    main section:nth-of-type(1) ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 2em;
+
+
+    }
+
+    main section:nth-of-type(1) h1 {
+        font-size: 1.5em;
+    }
+
+    main section:nth-of-type(2) {
+        position: absolute;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: space-around;
+        margin-top: -5em;
+        background-color: #1500b3;
+
+
+
+
+    }
+
+    main section:nth-of-type(2) h2 {
+        text-align: start;
+        margin-bottom: 1em;
+        width: 50%;
+        background-color: #1500b3;
+    }
+
+    main section:nth-of-type(2) a {
+        text-align: center;
+        margin-bottom: 1em;
+        width: 10em;
+        margin-right: 10%;
+        background-color: #1500b3;
+        height: auto;
+
+    }
+
+    main section:nth-of-type(3) li img {
+        display: block;
+    }
+
+    main section:nth-of-type(3) ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main section:nth-of-type(3) li {
+        width: 20em;
+
+        text-align: start;
+    }
+
+    main section:nth-of-type(3) li img {
+        width: 19em;
+
+    }
+
+    main section:nth-of-type(3) li p {
+        display: block;
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: .9em;
+        color: black;
+        line-height: 1.8em;
+        text-align: start;
+    }
+
+    main section:nth-of-type(3) li h4 {
+        justify-content: flex-start;
+    }
+
+    main section:nth-of-type(4) {
+        background-size: 100%
+    }
+
+    main section:nth-of-type(4) img {
+        width: 50vw;
+
+    }
+
+    main section:nth-of-type(4) .prev {
+        position: absolute;
+        left: 15em;
+        top: 45%;
+    }
+
+    main section:nth-of-type(4) .next {
+        position: absolute;
+        right: 15em;
+        top: 45%;
+    }
 }

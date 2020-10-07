@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1.  https://netspecialist.nl/html-en-css/523-driehoeken-maken-met-css 
 2. -bron 2-
 3. -...-
 
@@ -24,7 +24,27 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+- De website is enigsinds responsive. Er zijn heel veel elementen waardoor het heel veel werk is om het mooi responsive te maken. Er is een gif aan de detail-pagina teogevoegd om interessanter te maken. Meeste linkjes en knoppen hebben een acftive state. Alle alt-teksten zijn geschreven.-
+
+**Screenshot(s):**
+![1](images/voortgang3-1.png)
+![2](images/voortgang3-2.png)
+![3](images/voortgang3-3.png)
+![4](images/voortgang3-4.png)
+![5](images/voortgang3-5.png)
+![6](images/voortgang3-6.png)
+
+
+
+
+### Agenda voor meeting
+
+-Problemen met img bij schalen. Tips voor een alttekst bij afbeeldingen? Eerste 2 img naast elkaar krijgen op desktop. Originele sims website gebruikt 20 verschillende achtergonden voor resposive, ik heb een img gebuikt en die gestyled,  resposive schalen wordt daarom lastig Er zijn veel elementen op de website waardoor het responsive maken lastig is. -
+
+### Verslag van meeting
+
 
 
 
@@ -50,7 +70,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -Moet de menu in een kruisje veranderen. Mag er extra pagina toegevoegd worden aan het menu. Is de gebruik van classes goed. Voldoende animaties-
 
 ### Verslag van meeting
-
+- Alt text van je img invullen 
+- class aan header in plaats van de nav
+- In css de background img veranderen van de button
+- Grid op form
+- Width van 50% aan formulier en tekst
+- Aparte functie waarde uitlezen van een dropdown
+- Is de detail pagina goed
+- Misschien elementen toevoegen aan de detail pagina
+- Goed op weg, goed volgens planning
 
 
 

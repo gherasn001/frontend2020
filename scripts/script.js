@@ -9,7 +9,7 @@ var hamburgerNav = document.querySelector('header > nav');
 var open = function menuOpen() {
 
     hamburgerNav.classList.toggle('menu');
-
+    hamburgerButton.classList.toggle('burger');
 };
 
 hamburgerButton.addEventListener('click', open);
@@ -21,12 +21,12 @@ hamburgerButton.addEventListener('click', open);
 
 var count = 0;
 
- //next button
+//next button
 
 function rollTheGame() {
-   
 
-    var imgArray = ["simsmobilepromo.jpg", "promocosole.jpg", "simsfreeplaypromo.jpg", "sims3promo.jpg", "mysimspromo.jpg", "thesims2.jpg"];
+
+    var imgArray = ["simsmobile.jpg", "sims4.jpg", "simsfreeplay.jpg", "sims3.jpg", "mysims.jpg", "sims2.jpg", "simsconsoloe.jpg"];
     console.log(imgArray);
 
     var gameImg = imgArray[count];
@@ -38,24 +38,23 @@ function rollTheGame() {
 
 
     document.querySelectorAll('main > section:nth-of-type(4) > img')[0].src = "images/" + gameImg;
-if (count >= 6) {
-  count = 0}
-    else {
-      count - 1   } 
+    if (count >= 6) {
+        count = 0
+    }
 }
 
 document.querySelector('.next').addEventListener('click', rollTheGame);
 rollTheGame();
 // previous button
 function rollTheGamePrev() {
-   
 
-    var imgArray = ["simsmobilepromo.jpg", "promocosole.jpg", "simsfreeplaypromo.jpg", "sims3promo.jpg", "mysimspromo.jpg", "thesims2.jpg"];
+
+    var imgArray = ["simsmobile.jpg", "sims4.jpg", "simsfreeplay.jpg", "sims3.jpg", "mysims.jpg", "sims2.jpg", "simsconsoloe.jpg"];
     console.log(imgArray);
 
     var gameImg = imgArray[count];
     count = count - 1;
-    count = 0;
+
     console.log('Nummer:' + count);
 
     console.log('Plaatje:' + gameImg);
