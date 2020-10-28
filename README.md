@@ -7,18 +7,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1.  https://netspecialist.nl/html-en-css/523-driehoeken-maken-met-css 
-2. -bron 2-
-3. -...-
+2. https://www.ea.com/nl-nl/games/the-sims
+3. https://codepen.io/shooft
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+-Alles ging uiteindlijk goed, het was evenm stressen met het stylen van de detail-pagina voor desktop, maar is uiteindlijk naaar heel veel kijken en probreren gelukt. Waar ik moeite mee had is dat het niet perfect kon, maar dat is meer een mijn probleem, dat heb ik gelukklig uiteindelijk los gelaten. De officiele website is afgelopen week verranderd omdat er een nieuwe pack is aangekondigd.-
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![1](images/eindgesprek-1.png)
+![2](images/eindgesprek-2.png)
+![3](images/eindgesprek-3.png)
+![4](images/eindgesprek-4.png)
+![5](images/eindgesprek-5.png)
+![6](images/eindgesprek-6.png)
+![7](images/eindgesprek-7.png)
+![8](images/eindgesprek-8.png)
 
 
 
@@ -45,8 +52,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
-
-
+-  Section een hight geven met VH
+-  Align items in de tweede section
+-  Knop een height geven
+-  Formulier grid
+-  Section moet een heading bevatten
+-  Kortom voor ophoiging gaan
 
 ## Voortgang 2 (week 5)
 
